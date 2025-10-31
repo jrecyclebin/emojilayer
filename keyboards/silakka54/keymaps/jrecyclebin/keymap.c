@@ -13,7 +13,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         QK_GESC, KC_1,    KC_2,    KC_3,    KC_4,      KC_5,
         KC_6,    KC_7,    KC_8,    KC_9,    KC_0,      KC_MINS,
 
-        KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,      KC_T,
+        KC_TAB,  KC_Q,    KC_W,    KC_E,      KC_R,    KC_T,
         KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,      KC_BSPC,
 
         KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,      KC_G,
@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_TRNS,      KC_F13,  KC_F14,  KC_F15,  KC_F16,    KC_F17,
         KC_LEFT,      KC_DOWN, KC_UP,   KC_RGHT, KC_INS,    QK_BOOT,
 
-		KC_TRNS,      KC_F18,  KC_F19,  KC_F20,  KC_F21,    C(A(KC_END)),
+		KC_TRNS,      KC_F18,  KC_F19,  KC_F20,  TG(3),     C(A(KC_END)),
         KC_MPLY,      KC_MUTE, KC_MPRV, KC_MNXT, KC_VOLD,   KC_VOLU,
 
 		KC_TRNS,      KC_TRNS, KC_APP,
@@ -55,7 +55,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_LSFT, EMOJI_ZZZ, EMOJI_EXIT, EMOJI_CRIKEY, EMOJI_VICTORY, EMOJI_BIRDIE,
         EMOJI_NO, EMOJI_MMM, EMOJI_POINT_LEFT, EMOJI_POINT_RIGHT, EMOJI_DAFUQ, EMOJI_FIRE,
 
-		KC_LOPT, EMOJI_ATTN, EMOJI_ATTN,
-        KC_ENT, MOD_LGUI, KC_RBRC
+		KC_LOPT, EMOJI_ATTN, KC_TRNS,
+        KC_TRNS, MOD_LGUI, KC_RBRC
+	),
+    [3] = LAYOUT(
+		TG(3),   JPH_NU, JPH_FU, JPH_A,  JPH_U,  JPH_E,
+        JPH_O,   JPH_YA, JPH_YU, JPH_YO, JPH_WA, JPH_HO,
+
+        KC_TRNS, JPH_TA,  JPH_TE, JPH_I,   JPH_SU, JPH_KA,
+        JPH_N,   JPH_NA,  JPH_NI, JPH_RA,  JPH_SE, KC_TRNS,
+
+        KC_TRNS, JPH_CHI, JPH_TO, JPH_SHI, JPH_HA, JPH_KI,
+        JPH_KU,  JPH_MA,  JPH_NO, JPH_RI,  JPH_RE, JPH_KE,
+
+        KC_TRNS, JPH_TSU, JPH_SA, JPH_SO,  JPH_HI, JPH_KO,
+        JPH_MI,  JPH_MO,  JPH_NE, JPH_RU,  JPH_ME, JPH_MU,
+
+		KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, EMOJI_JABSCO, KC_TRNS
 	),
 };
