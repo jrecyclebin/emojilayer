@@ -206,20 +206,21 @@
         IBUS_MACRO("256f"); \
         IBUS_MACRO("20");   \
     }
-#define EMOTE_REDONK()     \
-    {                      \
-        IBUS_MACRO("28");  \
-        IBUS_MACRO("20");  \
-        IBUS_MACRO("361"); \
-        IBUS_MACRO("b0");  \
-        IBUS_MACRO("20");  \
-        IBUS_MACRO("35c"); \
-        IBUS_MACRO("296"); \
-        IBUS_MACRO("20");  \
-        IBUS_MACRO("361"); \
-        IBUS_MACRO("b0");  \
-        IBUS_MACRO("29");  \
-        IBUS_MACRO("20");  \
+#define EMOTE_REDONK()      \
+    {                       \
+        IBUS_MACRO("252c"); \
+        IBUS_MACRO("2534"); \
+        IBUS_MACRO("252c"); \
+        IBUS_MACRO("2534"); \
+        IBUS_MACRO("2524"); \
+        IBUS_MACRO("28");   \
+        IBUS_MACRO("ff65"); \
+        IBUS_MACRO("5f");   \
+        IBUS_MACRO("251c"); \
+        IBUS_MACRO("252c"); \
+        IBUS_MACRO("2534"); \
+        IBUS_MACRO("252c"); \
+        IBUS_MACRO("2534"); \
     }
 #define EMOTE_VICTORY()     \
     {                       \
@@ -268,17 +269,18 @@
     }
 #define EMOTE_GOOD_GAME()   \
     {                       \
+        IBUS_MACRO("d26");  \
+        IBUS_MACRO("d4d");  \
+        IBUS_MACRO("d26");  \
+        IBUS_MACRO("d3f");  \
         IBUS_MACRO("28");   \
-        IBUS_MACRO("e51");  \
+        IBUS_MACRO("ff61"); \
         IBUS_MACRO("2022"); \
         IBUS_MACRO("300");  \
-        IBUS_MACRO("3142"); \
-        IBUS_MACRO("2022"); \
-        IBUS_MACRO("301");  \
-        IBUS_MACRO("29");   \
-        IBUS_MACRO("648");  \
-        IBUS_MACRO("2727"); \
         IBUS_MACRO("20");   \
+        IBUS_MACRO("15dc"); \
+        IBUS_MACRO("3c");   \
+        IBUS_MACRO("29");   \
     }
 #define EMOTE_HAND_CLAP()    \
     {                        \
@@ -633,6 +635,364 @@
         IBUS_MACRO("308e"); \
     }
 
+// Katakana characters (30A0-30FF)
+#define KATAKANA_A()        \
+    {                       \
+        IBUS_MACRO("30a2"); \
+    }
+#define KATAKANA_I()        \
+    {                       \
+        IBUS_MACRO("30a4"); \
+    }
+#define KATAKANA_U()        \
+    {                       \
+        IBUS_MACRO("30a6"); \
+    }
+#define KATAKANA_E()        \
+    {                       \
+        IBUS_MACRO("30a8"); \
+    }
+#define KATAKANA_O()        \
+    {                       \
+        IBUS_MACRO("30aa"); \
+    }
+#define KATAKANA_KA()       \
+    {                       \
+        IBUS_MACRO("30ab"); \
+    }
+#define KATAKANA_GA()       \
+    {                       \
+        IBUS_MACRO("30ac"); \
+    }
+#define KATAKANA_KI()       \
+    {                       \
+        IBUS_MACRO("30ad"); \
+    }
+#define KATAKANA_GI()       \
+    {                       \
+        IBUS_MACRO("30ae"); \
+    }
+#define KATAKANA_KU()       \
+    {                       \
+        IBUS_MACRO("30af"); \
+    }
+#define KATAKANA_GU()       \
+    {                       \
+        IBUS_MACRO("30b0"); \
+    }
+#define KATAKANA_KE()       \
+    {                       \
+        IBUS_MACRO("30b1"); \
+    }
+#define KATAKANA_GE()       \
+    {                       \
+        IBUS_MACRO("30b2"); \
+    }
+#define KATAKANA_KO()       \
+    {                       \
+        IBUS_MACRO("30b3"); \
+    }
+#define KATAKANA_GO()       \
+    {                       \
+        IBUS_MACRO("30b4"); \
+    }
+#define KATAKANA_SA()       \
+    {                       \
+        IBUS_MACRO("30b5"); \
+    }
+#define KATAKANA_ZA()       \
+    {                       \
+        IBUS_MACRO("30b6"); \
+    }
+#define KATAKANA_SHI()      \
+    {                       \
+        IBUS_MACRO("30b7"); \
+    }
+#define KATAKANA_JI()       \
+    {                       \
+        IBUS_MACRO("30b8"); \
+    }
+#define KATAKANA_SU()       \
+    {                       \
+        IBUS_MACRO("30b9"); \
+    }
+#define KATAKANA_ZU()       \
+    {                       \
+        IBUS_MACRO("30ba"); \
+    }
+#define KATAKANA_SE()       \
+    {                       \
+        IBUS_MACRO("30bb"); \
+    }
+#define KATAKANA_ZE()       \
+    {                       \
+        IBUS_MACRO("30bc"); \
+    }
+#define KATAKANA_SO()       \
+    {                       \
+        IBUS_MACRO("30bd"); \
+    }
+#define KATAKANA_ZO()       \
+    {                       \
+        IBUS_MACRO("30be"); \
+    }
+#define KATAKANA_TA()       \
+    {                       \
+        IBUS_MACRO("30bf"); \
+    }
+#define KATAKANA_DA()       \
+    {                       \
+        IBUS_MACRO("30c0"); \
+    }
+#define KATAKANA_CHI()      \
+    {                       \
+        IBUS_MACRO("30c1"); \
+    }
+#define KATAKANA_DI()       \
+    {                       \
+        IBUS_MACRO("30c2"); \
+    }
+#define KATAKANA_TSU()      \
+    {                       \
+        IBUS_MACRO("30c4"); \
+    }
+#define KATAKANA_DZU()      \
+    {                       \
+        IBUS_MACRO("30c5"); \
+    }
+#define KATAKANA_SMALL_TSU() \
+    {                        \
+        IBUS_MACRO("30c3");  \
+    }
+#define KATAKANA_TE()       \
+    {                       \
+        IBUS_MACRO("30c6"); \
+    }
+#define KATAKANA_DE()       \
+    {                       \
+        IBUS_MACRO("30c7"); \
+    }
+#define KATAKANA_TO()       \
+    {                       \
+        IBUS_MACRO("30c8"); \
+    }
+#define KATAKANA_DO()       \
+    {                       \
+        IBUS_MACRO("30c9"); \
+    }
+#define KATAKANA_NA()       \
+    {                       \
+        IBUS_MACRO("30ca"); \
+    }
+#define KATAKANA_NI()       \
+    {                       \
+        IBUS_MACRO("30cb"); \
+    }
+#define KATAKANA_NU()       \
+    {                       \
+        IBUS_MACRO("30cc"); \
+    }
+#define KATAKANA_NE()       \
+    {                       \
+        IBUS_MACRO("30cd"); \
+    }
+#define KATAKANA_NO()       \
+    {                       \
+        IBUS_MACRO("30ce"); \
+    }
+#define KATAKANA_HA()       \
+    {                       \
+        IBUS_MACRO("30cf"); \
+    }
+#define KATAKANA_BA()       \
+    {                       \
+        IBUS_MACRO("30d0"); \
+    }
+#define KATAKANA_PA()       \
+    {                       \
+        IBUS_MACRO("30d1"); \
+    }
+#define KATAKANA_HI()       \
+    {                       \
+        IBUS_MACRO("30d2"); \
+    }
+#define KATAKANA_BI()       \
+    {                       \
+        IBUS_MACRO("30d3"); \
+    }
+#define KATAKANA_PI()       \
+    {                       \
+        IBUS_MACRO("30d4"); \
+    }
+#define KATAKANA_FU()       \
+    {                       \
+        IBUS_MACRO("30d5"); \
+    }
+#define KATAKANA_BU()       \
+    {                       \
+        IBUS_MACRO("30d6"); \
+    }
+#define KATAKANA_PU()       \
+    {                       \
+        IBUS_MACRO("30d7"); \
+    }
+#define KATAKANA_HE()       \
+    {                       \
+        IBUS_MACRO("30d8"); \
+    }
+#define KATAKANA_BE()       \
+    {                       \
+        IBUS_MACRO("30d9"); \
+    }
+#define KATAKANA_PE()       \
+    {                       \
+        IBUS_MACRO("30da"); \
+    }
+#define KATAKANA_HO()       \
+    {                       \
+        IBUS_MACRO("30db"); \
+    }
+#define KATAKANA_BO()       \
+    {                       \
+        IBUS_MACRO("30dc"); \
+    }
+#define KATAKANA_PO()       \
+    {                       \
+        IBUS_MACRO("30dd"); \
+    }
+#define KATAKANA_MA()       \
+    {                       \
+        IBUS_MACRO("30de"); \
+    }
+#define KATAKANA_MI()       \
+    {                       \
+        IBUS_MACRO("30df"); \
+    }
+#define KATAKANA_MU()       \
+    {                       \
+        IBUS_MACRO("30e0"); \
+    }
+#define KATAKANA_ME()       \
+    {                       \
+        IBUS_MACRO("30e1"); \
+    }
+#define KATAKANA_MO()       \
+    {                       \
+        IBUS_MACRO("30e2"); \
+    }
+#define KATAKANA_YA()       \
+    {                       \
+        IBUS_MACRO("30e4"); \
+    }
+#define KATAKANA_YU()       \
+    {                       \
+        IBUS_MACRO("30e6"); \
+    }
+#define KATAKANA_YO()       \
+    {                       \
+        IBUS_MACRO("30e8"); \
+    }
+#define KATAKANA_SMALL_YA() \
+    {                       \
+        IBUS_MACRO("30e3"); \
+    }
+#define KATAKANA_SMALL_YU() \
+    {                       \
+        IBUS_MACRO("30e5"); \
+    }
+#define KATAKANA_SMALL_YO() \
+    {                       \
+        IBUS_MACRO("30e7"); \
+    }
+#define KATAKANA_RA()       \
+    {                       \
+        IBUS_MACRO("30e9"); \
+    }
+#define KATAKANA_RI()       \
+    {                       \
+        IBUS_MACRO("30ea"); \
+    }
+#define KATAKANA_RU()       \
+    {                       \
+        IBUS_MACRO("30eb"); \
+    }
+#define KATAKANA_RE()       \
+    {                       \
+        IBUS_MACRO("30ec"); \
+    }
+#define KATAKANA_RO()       \
+    {                       \
+        IBUS_MACRO("30ed"); \
+    }
+#define KATAKANA_WA()       \
+    {                       \
+        IBUS_MACRO("30ef"); \
+    }
+#define KATAKANA_WI()       \
+    {                       \
+        IBUS_MACRO("30f0"); \
+    }
+#define KATAKANA_WE()       \
+    {                       \
+        IBUS_MACRO("30f1"); \
+    }
+#define KATAKANA_WO()       \
+    {                       \
+        IBUS_MACRO("30f2"); \
+    }
+#define KATAKANA_N()        \
+    {                       \
+        IBUS_MACRO("30f3"); \
+    }
+#define KATAKANA_SMALL_A()  \
+    {                       \
+        IBUS_MACRO("30a1"); \
+    }
+#define KATAKANA_SMALL_I()  \
+    {                       \
+        IBUS_MACRO("30a3"); \
+    }
+#define KATAKANA_SMALL_U()  \
+    {                       \
+        IBUS_MACRO("30a5"); \
+    }
+#define KATAKANA_SMALL_E()  \
+    {                       \
+        IBUS_MACRO("30a7"); \
+    }
+#define KATAKANA_SMALL_O()  \
+    {                       \
+        IBUS_MACRO("30a9"); \
+    }
+#define KATAKANA_SMALL_KE() \
+    {                       \
+        IBUS_MACRO("30f6"); \
+    }
+#define KATAKANA_SMALL_WA() \
+    {                       \
+        IBUS_MACRO("30ee"); \
+    }
+#define KATAKANA_VU()       \
+    {                       \
+        IBUS_MACRO("30f4"); \
+    }
+#define KATAKANA_VA()       \
+    {                       \
+        IBUS_MACRO("30f7"); \
+    }
+#define KATAKANA_VI()       \
+    {                       \
+        IBUS_MACRO("30f8"); \
+    }
+#define KATAKANA_VE()       \
+    {                       \
+        IBUS_MACRO("30f9"); \
+    }
+#define KATAKANA_VO()       \
+    {                       \
+        IBUS_MACRO("30fa"); \
+    }
+
 #define EMOTE(name)                  \
     case EMOJI_##name:               \
         if (record->event.pressed) { \
@@ -641,8 +1001,12 @@
         return false
 
 #define JP(name)                     \
-    case JPH_##name:            \
+    case JPH_##name:                 \
         if (record->event.pressed) { \
-            HIRAGANA_##name();       \
+            if (get_mods() & MOD_MASK_SHIFT) { \
+                KATAKANA_##name();   \
+            } else {                 \
+                HIRAGANA_##name();   \
+            }                        \
         }                            \
         return false
