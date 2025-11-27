@@ -192,7 +192,7 @@ Then I hit my KC_BOOT key - which puts the Silakka in flash mode - connect to it
 as a USB drive and copy the file (`silakka54_jrecyclebin.uf2`) to the drive.
 It'll cycle itself and we're in business.
 
-> [!INFO]
+> [!NOTE]
 > Incidentally, the Silakka (and other split keyboards like Lily58 or Corne) is
 > great for this stuff because it has two RP2040s - one on each side. So if I
 > end up with a keymap that is totally screwed, I can just plug into the other
