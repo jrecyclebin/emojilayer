@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicode to IBUS Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Unicode to IBUS Converter</h1>
+            <p>Convert Unicode characters to QMK IBUS_MACRO calls</p>
+        </header>
+        
+        <main>
+            <section class="input-section">
+                <label for="unicode-input">Input Unicode Text:</label>
+                <textarea id="unicode-input" placeholder="Type or paste Unicode characters here..."></textarea>
+            </section>
+            
+            <section class="output-section">
+                <div class="output-header">
+                    <label for="ibus-output">IBUS_MACRO Output:</label>
+                    <button id="copy-btn">Copy to Clipboard</button>
+                </div>
+                <pre id="ibus-output"></pre>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
