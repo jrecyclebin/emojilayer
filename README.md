@@ -1,4 +1,4 @@
-I recently switched to a [Silakka54](/Squalius-cephalus/silakka54). Having fun
+I recently switched to a [Silakka54](https://github.com/Squalius-cephalus/silakka54). Having fun
 with layers - I wondered: could I make an 	𝔼𝕄𝕆𝕁𝕀 𝕃𝔸𝕐𝔼ℝ??
 
 No - I didn't do any text. But you certainly can.
