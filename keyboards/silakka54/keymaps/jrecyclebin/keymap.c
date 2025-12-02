@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,      KC_B,
         KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,   KC_BSLS,
 
-        KC_LCTL,        MO(1),                 KC_SPC,
+        MO(1),          KC_LCTL,               KC_SPC,
         KC_ENT,         MT(MOD_LGUI, KC_LBRC), LT(2, KC_RBRC)
     ),
     [1] = LAYOUT(
@@ -55,8 +55,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, EMOJI_ZZZ, EMOJI_EXIT, EMOJI_CRIKEY, EMOJI_VICTORY, EMOJI_BIRDIE,
         EMOJI_NO, EMOJI_MMM, EMOJI_POINT_LEFT, EMOJI_POINT_RIGHT, EMOJI_DAFUQ, EMOJI_FIRE,
 
-        KC_LCTL, EMOJI_ATTN, KC_TRNS,
-        KC_TRNS, MOD_LGUI, KC_RBRC
+        EMOJI_ATTN, KC_LCTL, KC_TRNS,
+        KC_TRNS,    MOD_LGUI, KC_RBRC
     ),
     [3] = LAYOUT(
         TG(3),   JPH_NU, JPH_FU, JPH_A,  JPH_U,  JPH_E,
