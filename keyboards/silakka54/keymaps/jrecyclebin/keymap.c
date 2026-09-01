@@ -22,20 +22,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,      KC_B,
         KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,   KC_BSLS,
 
-        MO(1),          KC_LCTL,               KC_SPC,
+        MO(1),          KC_RCTL,               KC_SPC,
         KC_ENT,         MT(MOD_LGUI, KC_LBRC), LT(2, KC_RBRC)
     ),
     [1] = LAYOUT(
         KC_GRV,       KC_F1,   KC_F2,   KC_F3,   KC_F4,     KC_F5,
         KC_F6,        KC_F7,   KC_F8,   KC_F9,   KC_F10,    KC_EQL,
 
-        C(A(KC_DEL)), KC_WBAK, KC_WHOM, KC_WREF, KC_WFWD,   TG(3),
+        RCTL(A(KC_DEL)), KC_WBAK, KC_WHOM, KC_WREF, KC_WFWD,   TG(3),
         KC_HOME,      KC_PGDN, KC_PGUP, KC_END,  KC_PSCR,   KC_DEL,
 
         KC_TRNS,      KC_F13,  KC_F14,  KC_F15,  KC_F16,    KC_F17,
         KC_LEFT,      KC_DOWN, KC_UP,   KC_RGHT, KC_INS,    QK_BOOT,
 
-        KC_TRNS,      KC_F18,  KC_F19,  KC_F20,  TG(3),     C(A(KC_END)),
+        KC_TRNS,      KC_F18,  KC_F19,  KC_F20,  TG(3),     RCTL(A(KC_END)),
         KC_MPLY,      KC_MUTE, KC_MPRV, KC_MNXT, KC_VOLD,   KC_VOLU,
 
         KC_TRNS,      KC_TRNS, KC_APP,

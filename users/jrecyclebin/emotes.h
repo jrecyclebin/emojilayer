@@ -1,6 +1,6 @@
 #define IBUS_MACRO(z)              \
     {                              \
-        SEND_STRING(SS_RCTL("U")); \
+        SEND_STRING(SS_LCTL("U")); \
         SEND_STRING(z "\n");       \
     }
 #define EMOTE_UH()           \
